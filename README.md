@@ -132,8 +132,8 @@ Secure-Entry-OTP-GSM-Door-Access-Controller/
 
 End-to-end process flow of the login state machine, the admin interrupt and the background SMS receiver:
 
-![Flow Chart](<img width="1024" height="1760" alt="flowchart" src="https://github.com/user-attachments/assets/d836292a-74ae-4b33-a199-a0326c93689e" />
-)
+![Flow Chart]<img width="1024" height="1760" alt="flowchart" src="https://github.com/user-attachments/assets/d836292a-74ae-4b33-a199-a0326c93689e" />
+
 
 **Data movement summary:**
 1. Keypad → `ReadStringKeypad()` / `ReadPass()` → `scheduler.c` looks the ID up in `userDB.c` and checks the block flag and the PIN.
@@ -328,8 +328,8 @@ It checks PIN persistence across power cycles, thousands of simulated power cuts
 
 The composite below shows the LCD screens of the running firmware: login prompts, OTP entry with the 59 → 00 countdown, the access-granted, wrong-OTP, blocked, expired and GSM-failure screens, a remote-block cancellation, and the admin PIN and menu screens.
 
-![Results overview](<img width="1365" height="1458" alt="system_overview_all" src="https://github.com/user-attachments/assets/8d746be9-09bc-4b2e-8ffe-c8108c842baa" />
-)
+![Results overview]<img width="1365" height="1458" alt="system_overview_all" src="https://github.com/user-attachments/assets/8d746be9-09bc-4b2e-8ffe-c8108c842baa" />
+
 
 > 📷 The image above is rendered from the exact screen strings in `scheduler.c`, `menu.c` and `gsm.c`. **Replace it with photographs or Proteus screenshots of your running hardware** (`images/results/`), and add the received SMS screenshot (OTP + BLOCK confirmation).
 
