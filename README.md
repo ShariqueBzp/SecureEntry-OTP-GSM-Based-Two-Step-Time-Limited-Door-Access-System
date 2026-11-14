@@ -117,8 +117,8 @@ Secure-Entry-OTP-GSM-Door-Access-Controller/
 
 ## 🧩 System Architecture (Block Diagram)
 
-![Block Diagram](<img width="1264" height="900" alt="block_diagram" src="https://github.com/user-attachments/assets/c4af16a9-61b8-4a87-bdc6-22bfaf75abfe" />
-)
+![Block Diagram]<img width="1264" height="900" alt="block_diagram" src="https://github.com/user-attachments/assets/c4af16a9-61b8-4a87-bdc6-22bfaf75abfe" />
+
 
 **Signal flow:**
 - **Inputs** → Admin Edit Switch (external interrupt EINT1), 4x4 Matrix Keypad, the on-chip RTC, the user database in the SPI EEPROM, and incoming SMS from the owner's phone.
