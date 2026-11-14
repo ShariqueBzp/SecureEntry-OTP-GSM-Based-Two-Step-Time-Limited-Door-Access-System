@@ -1,0 +1,2 @@
+# SecureEntry-OTP-GSM-Based-Two-Step-Time-Limited-Door-Access-System
+SecureEntry is an advanced embedded access-control project built around the NXP LPC2148 (ARM7TDMI-S) microcontroller operating at 60 MHz. It transforms a conventional door lock into a secure two-factor authentication (2FA) system by combining a local static PIN with a dynamic, time-limited One-Time Password (OTP) delivered via SMS.
