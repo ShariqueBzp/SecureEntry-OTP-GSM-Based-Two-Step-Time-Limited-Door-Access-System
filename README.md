@@ -90,16 +90,12 @@ Secure-Entry-OTP-GSM-Door-Access-Controller/
 ├── delay.h / delay.c           # us / ms / s delay routines
 ├── pin_connect_block.h / .c    # Pin function select helpers
 ├── all_peripheral_defines.h    # Centralized pin map, bit macros, clock/baud constants
-├── pin_function_defines.h / spi_defines.h / spi_eeprom_defines.h / uart_defines.h
 ├── types.h                     # Project-wide typedefs (u8, s8, u16, u32, ...)
 ├── Startup.s                   # ARM7 startup / vector table / stack setup
 ├── *.uvproj / *.uvopt / *.sct  # Keil µVision project & scatter-load files
 ├── host_tests/                 # Optional PC tests (gcc): EEPROM power-loss + end-to-end simulation
 └── images/                     # Block diagram, flow chart, results (this README)
-    ├── block_diagram.png
-    ├── flowchart.png
-    ├── results/system_overview_all.png
-    └── hardware/               # add your hardware photos here
+   
 ```
 
 ### Key Files at a Glance
