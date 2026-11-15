@@ -113,7 +113,8 @@ Secure-Entry-OTP-GSM-Door-Access-Controller/
 
 ## 🧩 System Architecture (Block Diagram)
 
-![Block Diagram]<img width="1264" height="900" alt="block_diagram" src="https://github.com/user-attachments/assets/c4af16a9-61b8-4a87-bdc6-22bfaf75abfe" />
+<img width="1264" height="900" alt="block_diagram (1)" src="https://github.com/user-attachments/assets/1f7be231-69e1-4a3b-8011-83cb6e548a08" />
+
 
 
 **Signal flow:**
@@ -128,7 +129,8 @@ Secure-Entry-OTP-GSM-Door-Access-Controller/
 
 End-to-end process flow of the login state machine, the admin interrupt and the background SMS receiver:
 
-![Flow Chart]<img width="1024" height="1760" alt="flowchart" src="https://github.com/user-attachments/assets/d836292a-74ae-4b33-a199-a0326c93689e" />
+<img width="1024" height="1760" alt="flowchart" src="https://github.com/user-attachments/assets/78196272-f0d5-4253-86da-9a1dbf24bd1f" />
+
 
 
 **Data movement summary:**
